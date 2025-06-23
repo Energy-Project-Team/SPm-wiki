@@ -18,12 +18,12 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
       {
         text: 'SPworlds',
         items: [
-          { text: 'SPworlds', link: '/index' },
-          { text: 'СПм', link: '/spm' }
+          { text: 'SPworlds', link: '/wiki/spworlds/index' },
+          { text: 'СПм', link: '/spm' },
           { text: 'СП', link: '/sp' }
         ]
       }
