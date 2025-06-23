@@ -61,15 +61,15 @@ export default defineConfig({
         text: 'SPworlds',
         collapsed: false,
         items: [
-          { text: 'SPworlds', link: '/wiki/spworlds/index' },
-          { text: 'СПм', link: '/wiki/spworlds/spm' },
-          { text: 'СП', link: '/wiki/spworlds/sp' }
+          { text: 'SPworlds', link: '/spworlds/' },
+          { text: 'СПм', link: '/spworlds/spm' },
+          { text: 'СП', link: '/spworlds/sp' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Energy-Project-Team' }
     ]
 
     }
