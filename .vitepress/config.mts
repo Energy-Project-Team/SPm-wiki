@@ -108,6 +108,16 @@ export default defineConfig({
         ]
       },
       {
+        text: "❓ Ответы на вопросы",
+        collapsed: true,
+        base: "/faq",
+        items: [
+          { text: "🧭 Навигация", link: "/" },
+          { text: "🔢 IP", link: "/ip" },
+          { text: "📄 WhiteList", link: "/whitelist" }
+        ]
+      },
+      {
         text: "👥 Важные люди",
         collapsed: false,
         base: "/important-people",
@@ -137,13 +147,13 @@ export default defineConfig({
             base: "/bank",
             collapsed: true,
             items: [
-              { text: "💰 Правила банка", link: "/bank-rules" },
+              { text: "🔖 Правила банка", link: "/bank-rules" },
               { text: "👤 Устав банкиров", link: "/bankers-сharter" },
               { text: "💸 О Регулировании Инвойсов", link: "/invoice-regulation" }
             ]
           },
           { 
-            text: "Казначейство", 
+            text: "💰 Казначейство", 
             base: "/treasury",
             collapsed: true,
             items: [
@@ -153,7 +163,7 @@ export default defineConfig({
             ]
           },
           { 
-            text: "Правила измерений", 
+            text: "📋 Правила измерений", 
             base: "/worlds-rules",
             collapsed: true,
             items: [
@@ -162,7 +172,6 @@ export default defineConfig({
               { text: "🔒 Энд", link: "/end" },
             ]
           },
-          { text: "🗳️ Судебная система", link: "/judicial-system"},
           { text: "📛 Устав ФСБ", link: "/fsb-charter"},
           { text: "🧭 Устав Гидов", link: "/guide-charter"},
           { text: "🛑 Агитация во время выборов", link: "/agitation"}
