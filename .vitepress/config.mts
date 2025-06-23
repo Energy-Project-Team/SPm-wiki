@@ -83,84 +83,89 @@ export default defineConfig({
     
     nav: [
       { text: "Главная", link: "/" },
-      // { text: "Examples", link: "/markdown-examples" }
+      { text: "Начало", link: "/start/introduction" }
     ],
 
     sidebar: [
       {
-        text: "Начало",
+        text: "👋 Начало",
         collapsed: false,
         base: "/start",
         items: [
-          { text: "Введение", link: "/introduction" },
-          { text: "Модпак", link: "/modpack" },
+          { text: "📘 Введение", link: "/introduction" },
+          { text: "🎮 Модпак", link: "/modpack" },
         ]
       },
       {
-        text: "Игровые механики",
+        text: "🎲 Игровые механики",
         collapsed: false,
         base: "/game-mechanics",
         items: [
-          { text: "Ядро серера", link: "/core" },
-          { text: "Подпись предмета", link: "/sign-item" },
-          { text: "Загрузка РП", link: "/uploading-rp" },
-          { text: "Команды", link: "/commands" }
+          { text: "🔧 Ядро серера", link: "/core" },
+          { text: "📃 Подпись предмета", link: "/sign-item" },
+          { text: "📥 Загрузка РП", link: "/uploading-rp" },
+          { text: "🔐 Команды", link: "/commands" }
         ]
       },
       {
-        text: "Важные люди",
+        text: "👥 Важные люди",
         collapsed: false,
         base: "/important-people",
         items: [
-          { text: "Администрация", link: "/administration" },
-          { text: "Состав правительства", link: "/gov-composition" },
+          { text: "👮‍♂️ Администрация", link: "/administration" },
+          { text: "💼 Состав правительства", link: "/gov-composition" },
         ]
       },
       {
-        text: "Законодательство",
+        text: "📜 Законодательство",
         collapsed: true,
         base: "/law",
         items: [
-          { text: "Система территорий", link: "/territory-system" },
-          { text: "Судебная система", link: "/judicial-system" },
+          { text: "🗺️ Система территорий", link: "/territory-system" },
+          { text: "⚖️ Судебная система", link: "/judicial-system" },
           { 
-            text: "МинЮст", 
+            text: "📑 МинЮст", 
             base: "/ministry-of-justice",
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: "Закон “О Нормативно-правовых актах”", link: "/law-on-regulatory-legal-acts" },
-              { text: "Закон “О Министерстве Юстиции”", link: "/law-on-the-ministry-of-justice" },
+              { text: "🪪 Закон “О Нормативно-правовых актах”", link: "/law-on-regulatory-legal-acts" },
+              { text: "🧑‍⚖️ Закон “О Министерстве Юстиции”", link: "/law-on-the-ministry-of-justice" },
             ]
           },
           { 
-            text: "Банк", 
+            text: "🏦 Банк", 
             base: "/bank",
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: "Правила банка", link: "/bank-rules" },
-              { text: "Устав банкиров", link: "/bankers-сharter" },
+              { text: "💰 Правила банка", link: "/bank-rules" },
+              { text: "👤 Устав банкиров", link: "/bankers-сharter" },
+              { text: "💸 О Регулировании Инвойсов", link: "/invoice-regulation" }
             ]
           },
           { 
             text: "Казначейство", 
             base: "/treasury",
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: "Налогооблажение Частных Рынков", link: "/taxation-of-private-markets" },
-              { text: "Регулирование игорного бизнеса", link: "/gambling-business-regulation" },
-              { text: "Отмена налогообложения онлайн предприятий", link: "/abolition-of-taxation-of-online-businesses" },
+              { text: "📉 Налогооблажение частных рынков", link: "/taxation-of-private-markets" },
+              { text: "🎰 Регулирование игорного бизнеса", link: "/gambling-business-regulation" },
+              { text: "🚫 Отмена налогообложения онлайн предприятий", link: "/abolition-of-taxation-of-online-businesses" },
             ]
           },
           { 
             text: "Правила измерений", 
             base: "/worlds-rules",
-            collapsed: false,
+            collapsed: true,
             items: [
-              { text: "Спавн", link: "/spawn" },
-              { text: "Нижний мир (Ад)", link: "/nether" },
-              { text: "Энд", link: "/end" },
+              { text: "🌏 Спавн", link: "/spawn" },
+              { text: "♨️ Ад (Нижний мир)", link: "/nether" },
+              { text: "🔒 Энд", link: "/end" },
             ]
-          }
+          },
+          { text: "🗳️ Судебная система", link: "/judicial-system"},
+          { text: "📛 Устав ФСБ", link: "/fsb-charter"},
+          { text: "🧭 Устав Гидов", link: "/guide-charter"},
+          { text: "🛑 Агитация во время выборов", link: "/agitation"}
         ]
       }
     ],
