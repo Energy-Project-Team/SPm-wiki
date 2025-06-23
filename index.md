@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: На главную
-      link: /markdown-examples
+      link: /wiki/spworlds/
     - theme: alt
       text: Дискорд СПм
       link: /api-examples
@@ -20,4 +20,3 @@ features:
   - title: Это википедия СПм
     details: Тут вы действительно найдёте всё, что вам нужно о сервере
 ---
-
