@@ -112,7 +112,6 @@ export default defineConfig({
         collapsed: true,
         base: "/faq",
         items: [
-          { text: "🧭 Навигация", link: "/" },
           { text: "🔢 IP", link: "/ip" },
           { text: "📄 WhiteList", link: "/whitelist" }
         ]
