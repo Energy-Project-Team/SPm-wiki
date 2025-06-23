@@ -30,6 +30,36 @@ export default defineConfig({
         timeStyle: 'short'
       }
     },
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Поиск',
+                buttonAriaLabel: 'Поиск'
+              },
+              modal: {
+                displayDetails: 'Отобразить подробный список',
+                resetButtonTitle: 'Сбросить поиск',
+                backButtonTitle: 'Закрыть поиск',
+                noResultsText: 'Нет результатов по запросу',
+                footer: {
+                  selectText: 'выбрать',
+                  selectKeyAriaLabel: 'выбрать',
+                  navigateText: 'перейти',
+                  navigateUpKeyAriaLabel: 'стрелка вверх',
+                  navigateDownKeyAriaLabel: 'стрелка вниз',
+                  closeText: 'закрыть',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     editLink: {
       pattern: 'https://github.com/Energy-Project-Team/SPm-wiki/edit/main/src/:path',
       text: 'Редактировать эту страницу на GitHub'

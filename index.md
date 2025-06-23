@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: На главную
-      link: /wiki/spworlds/
+      link: /spworlds/
     - theme: alt
       text: Дискорд СПм
       link: /api-examples
