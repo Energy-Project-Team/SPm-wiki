@@ -11,12 +11,12 @@ hero:
       link: /start/introduction
     - theme: alt
       text: Дискорд СПм
-      link: /api-examples
+      link: https://discord.gg/XbcD523
     - theme: alt
       text: SPmHelper
-      link: /api-examples
+      link: https://spmhelper.ru/
 
 features:
   - title: Это википедия СПм
-    details: Тут вы действительно найдёте всё, что вам нужно о сервере
+    details: Тут вы действительно найдёте всё, что вам нужно знать о сервере
 ---
