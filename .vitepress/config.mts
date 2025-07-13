@@ -104,7 +104,7 @@ export default defineConfig({
           { text: "🔧 Ядро серера", link: "/core" },
           { text: "📃 Подпись предмета", link: "/sign-item" },
           { text: "📥 Загрузка РП", link: "/uploading-rp" },
-          { text: "🔐 Команды", link: "/commands" }
+          { text: "🔐 Другое", link: "/commands" }
         ]
       },
       {
