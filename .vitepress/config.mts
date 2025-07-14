@@ -61,7 +61,7 @@ export default defineConfig({
       }
     },
     editLink: {
-      pattern: "https://github.com/Energy-Project-Team/SPm-wiki/edit/main/src/:path",
+      pattern: "https://github.com/Energy-Project-Team/SPm-wiki/edit/main/:path",
       text: "Редактировать эту страницу на GitHub"
     },
     docFooter: {
