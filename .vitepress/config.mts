@@ -113,7 +113,8 @@ export default defineConfig({
         base: "/faq",
         items: [
           { text: "🔢 IP", link: "/ip" },
-          { text: "📄 WhiteList", link: "/whitelist" }
+          { text: "📄 WhiteList", link: "/whitelist" },
+          { text: "🔮 Порталы в Энд", link: "/end-portal"}
         ]
       },
       {
